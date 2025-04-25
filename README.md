@@ -10,14 +10,19 @@ Repository for managing podcast audio files for the HK Startup DAO podcast.
    ```
    python mp42pm3.py
    ```
-4. Upload the generated MP3 file to Spotify
+4. Upload the generated MP3 file to Spotify at:
+   [https://creators.spotify.com/pod/dashboard/episode/wizard](https://creators.spotify.com/pod/dashboard/episode/wizard)
 5. Apple Podcast will automatically pick up the show from Spotify
+
+## Script Details
+
+The `mp42pm3.py` script automatically:
+- Finds the most recent MP4 file in the `audio` directory
+- Converts it to MP3 format using ffmpeg
+- Saves the MP3 file in the same `audio` directory
+- Preserves audio quality during the conversion process
 
 ## Requirements
 
 - Python 3
 - ffmpeg (must be installed and available in PATH)
-
-## Script Details
-
-The `mp42pm3.py` script automatically converts all MP4 files in the current directory to MP3 format using ffmpeg. The script preserves audio quality during the conversion process.
