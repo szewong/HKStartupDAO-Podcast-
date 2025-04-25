@@ -2,6 +2,11 @@
 
 Repository for managing podcast audio files for the HK Startup DAO podcast.
 
+## Podcast Links
+
+- Spotify: [https://open.spotify.com/show/6vHdLvls35yJgvBPtjIi0S](https://open.spotify.com/show/6vHdLvls35yJgvBPtjIi0S)
+- Apple Podcasts: [https://podcasts.apple.com/us/podcast/香港創業島-hk-startup-dao-全球創業-科技-每週radio重播/id1734721713](https://podcasts.apple.com/us/podcast/香港創業島-hk-startup-dao-全球創業-科技-每週radio重播/id1734721713)
+
 ## Workflow
 
 1. After each show, download the raw MP4 file from Clubhouse
